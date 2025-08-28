@@ -1,51 +1,94 @@
-#!/bin/bash
-# README.sh - Project overview script for MobileShop-Dashboard
+# 📱 MobileShop-Dashboard
 
-echo ""
-echo "📱 MobileShop-Dashboard"
-echo "-------------------------"
-echo "A desktop admin dashboard built with Python (PyQt6) and Matplotlib."
-echo "Manage products, customers, and analytics for a mobile phone shop."
-echo ""
+MobileShop-Dashboard is a **desktop admin dashboard** built with **Python (PyQt6)** and **Matplotlib**.  
+It’s designed for managing a **mobile phone shop**, allowing the admin to manage products, customers, and view analytics in a clean, modern UI with **dark/light theme support**.
 
-echo "✨ Features:"
-echo " - Dashboard overview with quick stats"
-echo " - Product management (add/edit/delete)"
-echo " - Customer management with search & filter"
-echo " - Analytics with bar and pie charts"
-echo " - Light/Dark theme switcher"
-echo " - Settings page"
-echo ""
+---
 
-echo "⚙️ Installation:"
-echo "  1. Clone the repository:"
-echo "     git clone https://github.com/your-username/MobileShop-Dashboard.git"
-echo "     cd MobileShop-Dashboard"
-echo ""
-echo "  2. Create and activate virtual environment:"
-echo "     python -m venv venv"
-echo "     source venv/bin/activate   # Linux/Mac"
-echo "     venv\\Scripts\\activate    # Windows"
-echo ""
-echo "  3. Install dependencies:"
-echo "     pip install -r requirements.txt"
-echo ""
+## ✨ Features
 
-echo "▶️ Run the Application:"
-echo "     python main.py"
-echo ""
+- **Dashboard Overview**
+  - Quick stats on sales, orders, and customers.
+- **Product Management**
+  - Add, edit, delete products.
+  - Data table with price & stock tracking.
+- **Customer Management**
+  - Search, filter, and manage customers.
+  - Filter by name, email, phone, or purchase count.
+- **Analytics**
+  - Monthly sales bar chart.
+  - Best-selling brand pie chart.
+- **Theme Manager**
+  - Toggle between **light** 🌞 and **dark** 🌙 modes.
+  - Charts update styling automatically with theme changes.
+- **Settings Page**
+  - Manage app preferences.
 
-echo "🚀 Roadmap:"
-echo " - Add database integration (SQLite/MongoDB)"
-echo " - Add authentication system"
-echo " - Export reports (PDF/Excel)"
-echo " - Add more advanced analytics"
-echo ""
+---
 
-echo "📜 License:"
-echo " Licensed under MIT License."
-echo ""
+## ⚙️ Installation
 
-echo "🤝 Contributing:"
-echo " Pull requests are welcome!"
-echo ""
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/MobileShop-Dashboard.git
+   cd MobileShop-Dashboard
+   ```
+
+2. Create and activate a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Linux/Mac
+   venv\Scripts\activate     # On Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   **requirements.txt** should include:
+   ```
+   PyQt6
+   matplotlib
+   ```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python main.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+MobileShop-Dashboard/
+│── main.py              # Entry point with UI and logic
+│── README.md            # Project documentation
+│── requirements.txt     # Dependencies
+```
+
+---
+
+## 🚀 Roadmap / Next Steps
+
+- [ ] Add database integration (SQLite or MongoDB).  
+- [ ] Implement authentication system.  
+- [ ] Export reports (PDF/Excel).  
+- [ ] Improve analytics with more charts.  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and modify.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! If you’d like to improve UI/UX, optimize performance, or add new features, feel free to fork and submit.
+
